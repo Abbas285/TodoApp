@@ -1,0 +1,128 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main_Div{
+background-color: aqua;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.Center_Div{
+    border: 1px solid white;
+    background-color:wheat ;
+    border-radius: 25px;
+    width: 50%;
+    height: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.forms{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputs{
+    width: 60%;
+    height: 30px;
+    outline: none;
+  border: none;
+  border-bottom: 2px solid #8566aa;
+  background-color: transparent;
+text-align: center;
+top: 10px;
+font-size: 20px;
+font-weight: 500;
+padding-bottom: 5px;
+
+}
+.buttons{
+    padding: 5px 15px 5px 15px;
+    border-radius: 100%;
+    outline: none;
+    border-color: transparent;
+    border: none;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: mediumspringgreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+.buttons:hover{
+    background-color: red;
+    transition: 1s;
+}
+h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+ul{
+   margin-top: 20px;
+}
+ul li{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+    font-weight: 500;
+    min-height: 40px;
+    color: #8566aa;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+
+}
+.liststyle{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+.liststyle .Close{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: aliceblue;
+    margin: 0 5px 0 0;
+}
+.liststyle .Close:hover{
+    background-color: crimson;
+    transition: .3s;
+}
+.liststyle .Close:hover.list_style{
+    color: crimson;
+}
+.liststyle .deleteicon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:goldenrod ;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 15px 0 0;
+    
+}
+.liststyle .deleteicon:hover{
+    color: crimson;
+    transition: .3s;
+    
+}

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_div{
+width: 100%;
+height: 100vh;
+background-color: darkorchid;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.center_div{
+    width: 70%;
+    border: 2px solid tomato;
+    height: 70vh;
+    background-color:grey ;
+    color: brown;
+    
+border-radius: 25px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.center_div::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.inputs{
+width: 60%;
+padding: 10px;
+margin-bottom: 10px;
+border: transparent;
+border-radius: 5px;
+font-size: 20px;
+color: grey;
+text-align: center;
+
+}
+.buttons{
+
+width: 75px;
+font-size: 20px;
+font-weight: 500;
+background-color: yellowgreen;
+border: transparent;
+outline: none;
+border-radius: 25px;
+padding: 10px 5px 10px 5px;
+min-height: 40px;
+font-weight: bolder;
+cursor: pointer;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    background-color: tomato;
+    transition: 1s;
+}
+.table_div{
+    
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 2em;
+   
+}
+table td,table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+table tr:hover {background-color: #ddd;}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
