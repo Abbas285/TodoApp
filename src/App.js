@@ -7,9 +7,9 @@ import Form2 from './project/UserForm/Form2'
 function App() {
   return (
     <div className="App">
-      {/* <Todolist/> */}
+      <Todolist/>
       {/* <FormHand/> */}
-      <Form2/>
+      {/* <Form2/> */}
     </div>
   );
 }

@@ -86,8 +86,8 @@ else{
 <div className="center2">
 
 { getData.map((val,id)=>{
-    return(<>
-      <table className="tables">
+    return <table className="tables">
+      
                     <thead>
                        <tr>
                            <th>User  Name</th><th>Email</th><th>Phone Number</th><th>Password</th><th>Operation</th>
@@ -103,7 +103,7 @@ else{
                         </tr>
                     </tbody>
                 </table> 
-    </>)
+    
 })
 
 }
